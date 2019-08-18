@@ -71,8 +71,9 @@ bRecordSamples = False
 nMaxSamples = 1000
 nSamples = 0
 gameCfg = "./scenarios/deathmatch_7action.cfg"
-#model_path = "./Vizmodels/CarCloneModel-deathmatch-50000-epoch10-5action-256x256-modify1/"
-model_path = "./models/"
+
+# This is for saving model of imitation learning.
+model_path = "../ViZDoom-models/CarCloneModel-deathmatch-50000-epoch10-5action-256x256-modify1/"
 
 class CNNAction:
     def __init__(self, gameName):
