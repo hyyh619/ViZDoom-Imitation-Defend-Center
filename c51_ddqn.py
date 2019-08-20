@@ -401,7 +401,7 @@ if __name__ == "__main__":
 
     game = DoomGame()
     game.load_config(gameCfg)
-    game.set_sound_enabled(True)
+    game.set_sound_enabled(False)
     game.set_screen_resolution(ScreenResolution.RES_640X480)
     game.set_window_visible(True)
     game.init()
