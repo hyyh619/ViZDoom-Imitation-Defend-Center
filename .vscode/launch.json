@@ -2,11 +2,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python",
+            "name": "Python-t450-tensorflow-python36",
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "C:/Users/hyyh6/AppData/Local/conda/conda/envs/tensorflow-python35/python",
+            "pythonPath": "E:/tools/Anaconda3/envs/tensorflow-python35/python",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
             "debugOptions": [
