@@ -7,6 +7,7 @@ Windows下面直接使用vizdoom的预编译好的安装包。注意
 2. python依赖安装
 conda install scikit-image pandas
 conda install -c conda-forge opencv
+conda install matplotlib
 
 3. 模型说明
 models-old保存2019.8.18日以前训练的模型
