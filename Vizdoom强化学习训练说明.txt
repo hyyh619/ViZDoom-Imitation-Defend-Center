@@ -1,9 +1,13 @@
-﻿1.  依赖安装
+﻿1. vizdoom安装
 Windows下面直接使用vizdoom的预编译好的安装包。注意
    A. 预编译好的安装包的python版本要一致。
    B. 预编译的安装包解压后把vizdoom文件夹拷贝到环境对应的库目录：Anaconda3\envs\tensorflow-python35\Lib\site-packages
    C. 运行vizdoom时，不能使用远程桌面，否则会接收到报错信息：”vizdoom.vizdoom.ViZDoomErrorException: Buffers size mismatch“
 
-2.  模型说明
+2. python依赖安装
+conda install scikit-image pandas
+conda install -c conda-forge opencv
+
+3. 模型说明
 models-old保存2019.8.18日以前训练的模型
 models保存2019.8.18日以后训练的模型

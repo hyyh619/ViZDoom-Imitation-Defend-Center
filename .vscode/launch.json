@@ -19,6 +19,23 @@
             ]
         },
         {
+            "name": "Python-t450-pytorch-python37",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": true,
+            "pythonPath": "E:/tools/Anaconda3/envs/pytorch-py37/python",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ],
+            "args": [
+                "model.json"
+            ]
+        },
+        {
             "name": "PySpark",
             "type": "python",
             "request": "launch",
