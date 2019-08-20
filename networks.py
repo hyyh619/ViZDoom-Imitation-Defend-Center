@@ -15,7 +15,7 @@ from keras.models import model_from_json
 from keras.models import Sequential, load_model, Model
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers.wrappers import TimeDistributed
-from keras.layers import Conv2D, Convolution2D, Dense, Flatten, merge, MaxPooling2D, Input, AveragePooling2D, Lambda, Merge, Activation, Embedding
+from keras.layers import Conv2D, Convolution2D, Dense, Flatten, merge, MaxPooling2D, Input, AveragePooling2D, Lambda, Activation, Embedding
 from keras.optimizers import SGD, Adam, rmsprop
 from keras.layers.recurrent import LSTM, GRU
 from keras.layers.normalization import BatchNormalization
